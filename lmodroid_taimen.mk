@@ -3,7 +3,7 @@ TARGET_SCREEN_HEIGHT := 2880
 TARGET_SCREEN_WIDTH := 1440
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Inherit from the common Open Source product configuration.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -17,7 +17,7 @@ PRODUCT_BRAND := google
 PRODUCT_DEVICE := taimen
 PRODUCT_MANUFACTURER := Google
 PRODUCT_MODEL := Pixel 2 XL
-PRODUCT_NAME := lineage_taimen
+PRODUCT_NAME := lmodroid_taimen
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
